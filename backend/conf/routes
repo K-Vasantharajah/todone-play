@@ -11,3 +11,4 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file: 
 
 # API end points
 GET     /api/tasks                  controllers.ApiController.tasks()
+POST    /api/task                   controllers.ApiController.create()
